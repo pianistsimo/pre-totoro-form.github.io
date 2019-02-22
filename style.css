@@ -1,6 +1,6 @@
 body {
 	font-family: 'Ubuntu Condensed', sans-serif;
-	background-image:url('background.JPG');
+	background-image:url('background.jpg');
 	max-width: 100%;
 	display: block;
 	margin: 50px;
@@ -46,7 +46,7 @@ a:hover{
 	cursor: pointer;
 }
 #chooseFile{
-	color: rgb(255, 255, 255);
+	color: rgb(169, 57, 2);
 	font-size: 22px;
 	padding: 6px;
 	font-family: 'Staatliches', cursive;
