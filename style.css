@@ -46,7 +46,7 @@ a:hover{
 	cursor: pointer;
 }
 #chooseFile{
-	color: rgb(169, 57, 2);
+	color: rgb(255, 255, 255);
 	font-size: 22px;
 	padding: 6px;
 	font-family: 'Staatliches', cursive;
