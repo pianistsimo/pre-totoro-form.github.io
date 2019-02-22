@@ -26,7 +26,7 @@ include "upload.php";
 
 ?>
 <section style="text-align: center;">
-<h2>Pre-Order Totoro Crafts</h2>
+<h2>Pre-Order<br>Totoro Crafts</h2>
 </section>
 <section style="text-align: center;">
 <p> <br> Fill the Form by Yourself OR Dowload
