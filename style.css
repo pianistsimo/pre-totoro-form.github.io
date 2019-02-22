@@ -1,0 +1,112 @@
+body {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	background-image:url('background.JPG');
+	max-width: 100%;
+	display: block;
+	margin: 50px;
+	font-size: 30px;
+}
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 110px;
+	margin-bottom: 0px;
+
+}
+p {
+	font-size: 35px;
+	margin-top :0px;
+}
+a, a:visited{
+	font-size: 45px;
+	text-decoration: none;
+	font-family: 'Staatliches', cursive;
+	color:#310c03;
+	cursor: pointer;
+    text-align: center;	
+}
+a:hover{
+	text-decoration: underline;
+}
+#button{
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	padding: 6px;
+	border-radius: 3px;
+	font-family: 'Staatliches', cursive;
+	border: 1px solid rgba(49, 12, 3, 0.82);
+	background-color:rgba(49, 12, 3, 0.82);
+	margin:5px;
+}
+#button:hover{
+	color: rgb(49, 12, 3);
+	border-radius: 3px;
+	border: 1px solid rgb(49, 12, 3);;
+	background-color:#5a95c700;
+	margin:5px;
+	cursor: pointer;
+}
+#chooseFile{
+	color: rgb(255, 255, 255);
+	font-size: 22px;
+	padding: 6px;
+	font-family: 'Staatliches', cursive;
+	border: 1px solid rgba(28, 110, 164, 0);
+	margin:5px;
+	width: 260px;
+}
+#chooseFile:hover{
+	color: rgb(49, 12, 3);
+	border-radius: 5px;
+	border: 1px solid rgba(49, 12, 3, 0);
+	background-color:#5a95c700;
+	margin:5px;
+	cursor: pointer;
+}
+.error {
+	font-size: 25px;
+	font-weight: bold;
+	fon
+}
+.radio {
+	width: 20px;
+	height: 20px; 
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+}
+.inputText {
+	font-size: 20px;
+	margin:10px;
+  	padding: 0px 15px;
+    height: 40px;
+    width: 500px;
+  	border-radius: 8px;
+  	box-sizing: border-box;
+}
+.inputNum {
+	font-size: 20px;
+	margin:10px;
+	text-align: center;
+	height: 40px;
+    width: 100px;
+	border-radius: 8px;
+  	box-sizing: border-box;
+}
+.pic {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.section {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.order {
+	margin: 200px;
+	margin-top: 10px;
+	margin-bottom: 0px; 
+	border-radius: 20px;
+	padding: 150px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align: left;
+	font-size: 35px;
+	background-color: #ffffff99;
+}
