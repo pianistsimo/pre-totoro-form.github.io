@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ttr_1 = test_input($_POST["ttr_1"]);
     // check if order only number
     if (!preg_match("/^[0-9]*$/",$ttr_1)) {
-      $ttr1Err = "Only numbers at lease 0 allowed"; 
+      $ttr1Err = "Only numbers at least 0 allowed"; 
     }
     else{
         $check++;
@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ttr_2 = test_input($_POST["ttr_2"]);
     // check if order only number
     if (!preg_match("/^[0-9]*$/",$ttr_2)) {
-      $ttr1Err = "Only numbers at lease 0 allowed"; 
+      $ttr1Err = "Only numbers at least 0 allowed"; 
     }
     else{
         $check++;
@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ttr_3 = test_input($_POST["ttr_3"]);
     // check if order only number
     if (!preg_match("/^[0-9]*$/",$ttr_3)) {
-      $ttr3Err = "Only numbers at lease 0 allowed"; 
+      $ttr3Err = "Only numbers at least 0 allowed"; 
     }
     else{
         $check++;
@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ttr_4 = test_input($_POST["ttr_4"]);
     // check if order only number
     if (!preg_match("/^[0-9]*$/",$ttr_4)) {
-      $ttr3Err = "Only numbers at lease 0 allowed"; 
+      $ttr3Err = "Only numbers at least 0 allowed"; 
     }
     else{
         $check++;
@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ttr_5 = test_input($_POST["ttr_5"]);
     // check if order only number
     if (!preg_match("/^[0-9]*$/",$ttr_5)) {
-      $ttr5Err = "Only numbers at lease 0 allowed"; 
+      $ttr5Err = "Only numbers at least 0 allowed"; 
     }
     else{
         $check++;
